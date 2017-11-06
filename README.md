@@ -1,5 +1,7 @@
 # My Calendar API
 
+* Demo at [Heroku](https://my-kalendar.herokuapp.com/)
+
 JSON API that allows you to "manage" your events.
 
 Used gems:
