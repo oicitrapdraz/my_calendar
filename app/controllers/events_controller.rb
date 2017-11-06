@@ -25,8 +25,6 @@ class EventsController < ApplicationController
 
   # POST /events
   def create
-    puts current_user.email
-
     @event = current_user.events.new(event_params)
 
     if @event.save
